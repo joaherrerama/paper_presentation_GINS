@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Paper Presentation - GINS</title>
+
+		<meta name="description" content="This is a presentation of the paper How much information is geospatially referenced?
+		Networks and cognition">
+		<meta name="author" content="Jorge Herrera">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<img src="img/Logo_WWU_Münster.png" alt="reveal.js logo" style="height: 50px; margin: 30px; background: transparent;top:10px; right:50px" class="demo-logo">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides"data-auto-animate>
+				<section data-background-color="rgba(0,0,0,10)" data-background-video="img\video.mp4">
+
+					<h3>How much information is geospatially referenced?</h3>
+					<p class="fragment">80% of the information is georeferenced!!!</p>
+					<p>
+						<small>Presented by <a href="https://github.com/joaherrerama">Jorge A Herrera M</a></small>
+					</p>
+
+				</section>
+
+				<section data-auto-animate>
+					<section>
+						<h2>Introduction</h2>
+						<ul>
+							<i>
+								<p class="fragment fade-in">unsupported: ‘80% of all information contains some geospatial reference’</p>
+							</i>
+							<i>
+								<p class="fragment fade-in">almost 30 years after its first occurrence, it is time to reexamine the assertion</p>
+							</i>
+							<i>
+								<p class="fragment fade-in">this type of  research belongs to the area of ‘cognition of geographic information’, which has been recognized as one of the sub-fields of GIScience</p>
+							</i>
+						</ul>
+					</section>
+					<section>
+						<h2>Introduction</h2>
+						<ul>
+							<i>
+								<p class="fragment fade-in">Vanessa Lawrence expresses as ‘everything happens somewhere’ (Lawrence 2009, p. 4) ?? (That's the Correct Answer)</p>
+							</i>
+							<i>
+								<p class="fragment fade-in">This applies almost entirely to information that is stored in a network structure such as the Semantic Web or the World Wide Web (WWW)</p>
+							</i>
+						</ul>
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Terms</h2>
+					</section>
+					<section>
+						<h2>Geospatial</h2>
+						<p>difference between spatial and geospatial, is a matter of scale.</p>
+						<p>Spatial or Geospatial?</p>
+						<img class="r-frame" width="50%" height="30%" data-src="https://thumbs-prod.si-cdn.com/JKDhXAbKOeVOEX9wgPsDgZ313cs=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/4d/75/4d75d268-fd92-4983-9ea7-eb426a070af9/geology_lola_hshd_465mpp.png" >
+					</section>
+					<section>
+						<h2>Information</h2>
+						<p>is mainly concerned with the form and coding of messages, which is only of limited use for GIScience.</p>
+					</section>
+					<section>
+						<h2>Reference/referenced</h2>
+						<p>(a) (geospatially) ‘referenced’ in the sense of having coordinates or being based on exact measurement within a defined (geospatial) reference system.</p>
+						<p>(b) (geospatial) ‘reference’ in the sense of a general relation to geospace or geography, which allows a potential transformation into coordinates at varying levels of granularity.</p>
+					</section>
+				</section>
+
+				<section data-auto-animate>
+					<h3>Methodology</h3>
+					In this research two method were applied:
+					<ul>
+						<i>
+							<b><p class="fragment fade-in">Network approach to geospatial reference</p></b>
+						</i>
+						<i>
+							<b><p class="fragment fade-in">Cognitive approach to geospatial reference</p></b>
+						</i>
+				</section>
+
+				<section data-auto-animate>
+					<section>
+						<h3> Network approach to geospatial reference </h3>
+					</section>
+					<section>
+						<h2 data-id="code-title">Related Work</h2>
+						<ul>
+							<i>
+								<p class="fragment fade-in">4.5% od web documents contains US zipcode  (McCurley 2001) and 75% of the investigated documents conatains one geographic entity (Cardoso 2011)</p>
+							</i>
+							<i>
+								<p class="fragment fade-in">The network approach is mainly independent from the evolutionary stage as well as from the language version of the examined Wikipedias</p>
+							</i>
+						</ul>
+					</section>
+
+					<section>
+						<h2 data-id="code-title">Related Work</h2>
+						<ul>
+							<i>
+								<p class="fragment fade-in">Zlatic´ et al. (2006), Capocci et al. (2006), and Voss (2005) found that number of articles does not significantly differ within different language versions of Wikipedia</p>
+							</i>
+							<i>
+								<p class="fragment fade-in">Hecht and Moxley (2009) and Dahinden (2011) show that the articles varies considerably from language version to language version also regardin different stages of one and the same Wikipedia.</p>
+							</i>
+						</ul>
+					</section>
+					
+					<section data-auto-animate>
+					<h2 data-id="code-title">Methodology</h2>
+					<ul>
+							<i>
+								<p class="fragment fade-in">Use of Wikipedia and the  Wikipedia Article Graph (WAG)’ - Why not the World Wide Web (Using the Semantic Web)?</p>
+							</i>
+							<i>
+								<p class="fragment fade-in">Determinate the Degree of Geospatial Reference (cf. Hahmann et al. 2011) through the concep of Network Degree of Geospatial Reference (NDGR)</p>
+							</i>
+						</ul>
+					</section>
+
+					<section data-auto-animate>
+					<h2 data-id="code-title">Methodology</h2>
+					<ul>
+							<i>
+								<p class="fragment fade-in">NDGR is the indicator to measure the network approach to geospatial reference.</p>
+							</i>
+							<i>
+								<p class="fragment fade-in">Value of 0 to all articles that use a coordinate template in their headlines </p>
+							</i>
+							<i>
+								<p class="fragment fade-in">Value of 1 if there is at least one link within the full text of this article that connects to an article with NDGR 0</p>
+							</i>
+							<i>
+								<p class="fragment fade-in">Value of  2 is constituted if an article has at least one link pointing to an article with NDGR 1</p>
+							</i>
+						</ul>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Methodology</h2>
+						<img class="i-frame" width="80%" height="60%" data-src="img\scheme_network.png" >
+					</section>
+					
+					<section data-auto-animate>
+					<h2 data-id="code-title">Processing</h2>
+					<p class="fragment fade-up">They focus on the coordinate dump file (coordinates in the article).We post-processed the original dump file and tried to omit all articles without headline coordinate</p>
+					<img class="i-frame" width="80%" height="60%" data-src="img\NGR0.png" >
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Results</h2>
+						<img class="i-frame" width="80%" height="60%" data-src="img\NetworkResults.png" >
+					</section>
+				</section>
+
+				<section data-auto-animate>
+					<section>
+						<h3> Cognitive approach to geospatial reference </h3>
+					</section>
+					<section>
+						<h2 data-id="code-title">Related Work</h2>
+						<p class="fragment fade-down">Although the network approach is efficient in determining the geospatial reference of an article in absolute terms. It does not allow to measure the geographic cognitive that can have an article</p>
+						<p class="fragment fade-down">How humans assess geospatial reference? </p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Categories of geospatial reference</h2>
+						<p class="fragment fade-down">Direct geospatial reference (DirGR), Indirect geospatial reference (IndGR), and Non-geospatial reference (NonGR)</p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Experiment setting</h2>
+						<p class="fragment fade-down"><b>(1) how we ask our participants:</b> The first question arises because biases introduced by the question method may be assumed</p>
+						<p class="fragment fade-down"><b>(2) on who we ask?:</b>the second question may be posed because the background of the participants in the field may be expected to affect the results.</p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Materials</h2>
+						<p class="fragment fade-down"><b>111 articles</b>were randomly selected from the German Wikipedia considering two constraints.</p>
+						<p class="fragment fade-down"><b>(1)</b>The titles should not be ambiguous, such as ‘Bank’</p>
+						<p class="fragment fade-down"><b>(2)</b> The articles should rank among the top 5% of the most frequently accessed Wikipedia pages in 2011</p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Procedure</h2>
+						<p class="fragment fade-in"><b>Online Survey</b> The participant partake the Survey, whenever and wherever they wanted</p>
+						<p class="fragment fade-down"><b>Personal Data</b> Background on Geo, Awareness of the statement before the participation, age, gender, student</p>
+						<img class="i-frame" width="60%" height="40%" data-src="img\procedure_1.png" >
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Participant</h2>
+						<p class="fragment fade-in"><b>Announcement on a German Geo-news</b></p>
+						<p class="fragment fade-in"><b>Conacted via Email</b></p>
+						<p class="fragment fade-down"><b>Invitations</b></p>
+						<p class="fragment fade-down"><b>Friend of the authors</b></p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Data of experiment participation</h2>
+						<img class="i-frame" width="60%" height="40%" data-src="img\participants.png" >
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Results</h2>
+						<p class="fragment fade-down"> We computed for each article the portions of the different CGR that had been assigned by the participants</p>
+						<p class="fragment fade-down"> portions of CGR decisions may be computed relative to the portion of all not-‘U’ decisions</p>				
+						<p class="fragment fade-down">Cardif article from:</p>				
+						<p class="fragment fade-down"><b>87.2% ‘DirGR’, 7.0% ‘IndGR’, 2.3% ‘NonGR’, and 3.5% ‘U’</b></p>				
+						<p class="fragment fade-down">To <b>90.4% ‘DirGR’, 7.2% ‘IndGR’, and 2.4% ‘NonGR’</b></p>				
+					</section>
+				</section>
+
+				<section data-auto-animate>
+					<section>
+						<h3>Synthesis of approaches</h3>
+					</section>
+					<section>
+						<h2 data-id="code-title">Methodology</h2>	
+					</section>
+
+					<section>
+						<img class="i-frame" width="80%" height="60%" data-src="img\sythematicamethodology.png" >		
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Impact of experimental method on the categorization results</h2>	
+					</section>
+
+					<section data-auto-animate>
+						<img class="i-frame" width="80%" height="60%" data-src="img\categorization.png" >		
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Impact of professional background on the categorization results</h2>
+						<p class="fragment fade-down">the differences between geo-participants and non-geo-participants are smaller than the differences between group A and group B participants.</p>				
+						<p class="fragment fade-down">we may infer that it is less important ‘who’ we ask than ‘how’ we ask</p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Impact of professional background on the categorization results</h2>
+						<p class="fragment fade-down">In NDGR 0 articles the non-geo-participants less frequently chosen IndDR - more frequently either DirGR or NonGR</p>
+						<p class="fragment fade-down">In NDGR 2 show that the geo-participants have more frequently chosen NonGR.</p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Prediction of CGR portions for the whole German Wikipedia</h2>
+						<p> estimated the standard errors of the mean values according to Wilcox (2004,p. 63) applying 2σ accuracy</p>
+						<p></p>
+					</section>
+
+					<section data-auto-animate>
+						<img class="i-frame" width="90%" height="70%" data-src="img\prediction.png" >	
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Prediction of CGR portions for the whole German Wikipedia</h2>
+						<p class="fragment fade-down">A 2σ errors is taken as interval estimators to deduce the following ranges as results: 26–28% DirGR, 29–32% IndGR (DirGR + IndGR: 56–59%), and 41–44% NonGR</p>
+					</section>
+
+				</section>
+
+				<section data-auto-animate>
+					<section>
+						<h3>Discussion</h3>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Conclusions and future work</h3>
+					</section>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>Thank you so much for your attention!! Any Question?</h1>
+					<p>
+						- <a href="https://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
